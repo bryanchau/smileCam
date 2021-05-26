@@ -211,7 +211,7 @@ const styles = StyleSheet.create({
     },
  
     button: {
-        flex: 1,
+    flex:1,
         flexDirection: 'row',
         textAlign: 'center',
         justifyContent: 'center',
