@@ -2,7 +2,9 @@ import * as React from 'react';
 import {NavigationContainer, useNavigation} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 import {FontAwesome, Ionicons, MaterialCommunityIcons} from '@expo/vector-icons';
- 
+import Icon from 'react-native-vector-icons/FontAwesome';
+// FontAwesom Icon
+// https://fontawesome.com/v5.15/icons?d=gallery&p=2&q=chat
 import {
     Base,
     View,
@@ -22,7 +24,8 @@ import CameraPage from './camera.page';
 import LoginScreen from './LoginScreen';
 import GalleryPage from './gallery';
 import { abs } from 'react-native-reanimated';
- 
+import Setting from './setting';
+import Profile from './profile';
 function HomeScr({navigation}) {
     return (
         <View style={styles.container}>
@@ -153,7 +156,6 @@ const styles = StyleSheet.create({
     },
  
     image: {
- 
         width: width * 1,
         height: height * 0.5
     },
